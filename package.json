@@ -9,7 +9,7 @@
     "start": "npm run server",
     "server": "node app/server/index",
     "worker": "node app/server/worker",
-    "bot": "DEBUG=bot node app/bots/slackbot.js",
+    "bot": "DEBUG=bot node app/bots/index",
     "deploy:gae": "gcloud config set project ivikramtiwari && gcloud app deploy app.yaml --no-promote",
     "deploy:heroku": "git push heroku master"
   },

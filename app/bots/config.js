@@ -22,7 +22,7 @@ nconf
 
 function checkConfig (setting) {
   if (!nconf.get(setting)) {
-    throw new Error(`You must set the ${setting} environment variable or add it to config.json!`)
+    throw new Error(`You must set the ${setting} environment variable or add it to env.${env}.json!`)
   } else {
     console.log(`${setting} present`)
   }
