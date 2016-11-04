@@ -1,5 +1,6 @@
 'use strict'
 const debug = require('debug')('bot')
+const async = require('async')
 
 exports.reciever = function reciever (bot, message) {
   debug(message)

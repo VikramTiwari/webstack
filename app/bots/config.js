@@ -11,7 +11,9 @@ nconf
   .argv()
   // 2. Environment variables
   .env([
-    'SLACK_BOT_TOKEN'
+    'SLACK_BOT_TOKEN',
+    'GCP_PROJECT_ID',
+    'GCP_SERVICE_ACCOUNT_KEY_FILE'
   ])
   // 3. Config file
   .file({ file: path.join(__dirname, `env.${env}.json`) })
@@ -29,3 +31,5 @@ function checkConfig (setting) {
 }
 
 checkConfig('SLACK_BOT_TOKEN')
+checkConfig('GCP_PROJECT_ID')
+checkConfig('GCP_SERVICE_ACCOUNT_KEY_FILE')
