@@ -1,5 +1,7 @@
 # webstack
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/VikramTiwari/webstack.svg)](https://greenkeeper.io/)
+
 > Use the best available tools to build a web based stack
 
 [![NPM Version](https://img.shields.io/npm/v/webstack.svg)](https://www.npmjs.org/package/webstack)
